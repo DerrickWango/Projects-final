@@ -1,0 +1,22 @@
+UNIQUE constraint failed: Categories.category_id ------------ Error occured on 2018//07//26----at-----07::54::55.
+
+UNIQUE constraint failed: Categories.category_id ------------ Error occured on 2018//07//26----at-----07::55::12.
+
+UNIQUE constraint failed: Categories.category_id ------------ Error occured on 2018//07//27----at-----10::49::14.
+
+object of type 'int' has no len() ------------ Error occured on 2018//07//29----at-----14::40::06.
+
+UNIQUE constraint failed: Categories.category_id ------------ Error occured on 2018//07//29----at-----14::46::48.
+
+UNIQUE constraint failed: Categories.category_id ------------ Error occured on 2018//07//29----at-----14::48::21.
+
+UNIQUE constraint failed: Categories.category_id ------------ Error occured on 2018//07//29----at-----14::48::48.
+
+UNIQUE constraint failed: Categories.category_id ------------ Error occured on 2018//07//29----at-----14::49::35.
+
+UNIQUE constraint failed: Categories.category_id ------------ Error occured on 2018//07//29----at-----14::51::30.
+
+UNIQUE constraint failed: Categories.category_id ------------ Error occured on 2018//07//29----at-----15::54::04.
+
+UNIQUE constraint failed: Categories.category_id ------------ Error occured on 2018//07//30----at-----11::01::09.
+

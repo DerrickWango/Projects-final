@@ -1,0 +1,15 @@
+<MenuScreen>:
+    FloatLayout:
+        Button:
+            text: 'Goto settings'
+            on_press: root.manager.current = 'settings'
+        Button:
+            text: 'Quit'
+
+<SettingsScreen>:
+    FloatLayout:
+        Button:
+            text: 'My settings button'
+        Button:
+            text: 'Back to menu'
+            on_press: root.manager.current = 'menu'
