@@ -1,0 +1,5 @@
+software required to run this program:
+1.python 3.4
+2.PIL python package
+3.mysqlconnector
+4.mysql 
