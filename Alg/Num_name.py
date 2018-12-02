@@ -1,15 +1,22 @@
+'''
 
-def num_name(lst):
+A function that prints out a number in words
+
+usage:
+
+    num_name(list object)
+
+'''
+def num_name(lst,*args):
 
     dct_ones={
 
         'one':1,'two':2,'three':3,'four':4,'five':5,'six':6,'seven':7,'eight':8,'nine':9,'zero':0,
 
-        'ten':10,'eleven':11,'twelve':12,'thirteen':13,'fourteen':14,'fifteen':15,'sixteen':16,'seventeen':17,'eighteen':18,'nineteen':19
+        'eleven':11,'twelve':12,'thirteen':13,'fourteen':14,'fifteen':15,'sixteen':16,'seventeen':17,'eighteen':18,'nineteen':19
 
         }
 
-    dct_tens_only={'ten':10,'eleven':11,'twelve':12,'thirteen':13,'fourteen':14,'fifteen':15,'sixteen':16,'seventeen':17,'eighteen':18,'nineteen':19}
 
     dct_tens={
 
@@ -36,6 +43,10 @@ def num_name(lst):
                         if dct_ones[a]==x:
 
                             print('{} : This is number {}'.format(i,a))
+
+        if i==10:
+
+        	print("{} : This is number ten".format(i))
                             
 
         if i>=20 and i<=99:
@@ -60,7 +71,7 @@ def num_name(lst):
 
                                         print('{}: This is number {} {}.'.format(i,a_h,o_h))
 
-           
+        
 
         if i>=100 and i<=999:
 
@@ -75,54 +86,35 @@ def num_name(lst):
                            if (dct_ones[o_t]*dct_hundred_n_beyond['hundred']+dct_tens[t_t])==i:
 
                                 print('{} : This is number {} hundred and {}'.format(i,o_t,t_t))
-
-                       
-
-                           if dct_ones[o_t]==(i-(dct_ones[o_t]*dct_hundred_n_beyond['hundred']+dct_tens[t_t])):
-                                    
-
-                                print('{} : This is number {} hundred and {} {} '.format(i,o_t,t_t,o_t))
-
-                        
                        
                            
                            for o_t_t in dct_ones.keys():
 
-                               if dct_ones[o_t] != dct_ones[o_t_t] and (dct_ones[o_t]*dct_hundred_n_beyond['hundred']+dct_tens[t_t]+dct_ones[o_t_t])==i and dct_ones[o_t_t]<=9 and dct_ones[o_t_t]>0:
+                                if dct_ones[o_t] != dct_ones[o_t_t] and (dct_ones[o_t]*dct_hundred_n_beyond['hundred']+dct_tens[t_t]+dct_ones[o_t_t])==i and dct_ones[o_t_t]<=9 and dct_ones[o_t_t]>0:
 
                                    
                                         print('{} : This is number {} hundred and {} {}'.format(i,o_t,t_t,o_t_t))
 
+                           if dct_ones[o_t]==(i-(dct_ones[o_t]*dct_hundred_n_beyond['hundred']+dct_tens[t_t])):
+	                                    
+
+	                                	print('{} : This is number {} hundred and {} {} '.format(i,o_t,t_t,o_t))
+
+	                                          
 
 
-                           for t_t_t in dct_tens_only:
-
-                                if (dct_ones[o_t]
-
-                               
-
-
-                                   
-
-
-                                    
-
-                       
-
-
-                                
-
-                       
-
-                                                
 
 
 
 if __name__=='__main__':
 
-    for i in range(0,201):
+    for i in range(0,900):
 
         num_name([i])
+
+
+
+
 
 
 
