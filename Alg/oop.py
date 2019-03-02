@@ -4,7 +4,7 @@ from tkinter import ttk
 
 from tkinter.font import Font
 
-#from database import Models
+from database import Models
 
 from tkinter import messagebox as ms
 
