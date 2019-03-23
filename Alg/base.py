@@ -27,7 +27,7 @@ def xrange(*args:'xrange(stop) defaults to start=0,step=1'):
 
             return "Cannot interprate '{}' as integer!".format(type(i).__name__)
 
-    if length(args)==0:
+    if length(args)<1:
 
         return "c_range Must have at least one argument"
 
