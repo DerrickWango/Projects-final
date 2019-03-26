@@ -1,4 +1,3 @@
-from Numname import numname
 
 
 def length(array):
@@ -63,7 +62,7 @@ def xrange(*args:'xrange(stop) defaults to start=0,step=1'):
 
         if step==0:
 
-            return "Argument 3 should not be {}!".format(numname(step))
+            return "Argument 3 should not be zero!"
 
         start=(args[0]-(step))
 
@@ -91,7 +90,7 @@ def xrange(*args:'xrange(stop) defaults to start=0,step=1'):
 
     if length(args)>3:
 
-        return "Expected at most {} arguments,got {}".format(numname(3),numname(length(args)))
+        return "Expected at most three arguments,got {}".format(length(args))
 
 
     
